@@ -8,14 +8,8 @@
     -->
     <nav class="bg-white px-8 pt-2 shadow-md">
       <div class="-mb-px flex justify-center">
-        <a class="no-underline text-grey-dark border-b-2 border-teal-dark uppercase tracking-wide font-bold text-xs py-3 mr-8"
-          href="#">
-           <router-link to="/">Home</router-link>
-        </a>
-        <a class="no-underline text-grey-dark border-b-2 border-transparent uppercase tracking-wide font-bold text-xs py-3 mr-8"
-          href="#">
-          <router-link to="/about">About</router-link>
-        </a>
+          <router-link class="no-underline text-grey-dark border-b-2 uppercase tracking-wide font-bold text-xs py-3 mr-8" to="/">Home</router-link>
+          <router-link class="no-underline text-grey-dark border-b-2 uppercase tracking-wide font-bold text-xs py-3 mr-8" to="/about">About</router-link>
       </div>
     </nav>
     <router-view/>
