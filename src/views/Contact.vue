@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="px-2 my-3">
+    <div class="px-2 my-3 bg-white-100 p-1">
       <div class="bg-teal-100 border-t-4 border-teal-500 rounded-b text-teal-900 px-4 py-3 shadow-md" role="alert">
         <div class="flex">
           <div class="py-1"><svg class="fill-current h-6 w-6 text-teal-500 mr-4" xmlns="http://www.w3.org/2000/svg"
@@ -17,19 +17,19 @@
       <form class="mb-6 my-5" action="/" method="post">
         <div class="flex flex-col mb-4">
           <label class="mb-2 uppercase font-bold text-xs text-grey-darkest" for="first_name">First Name</label>
-          <input class="border py-2 px-3 text-grey-darkest" type="text" name="first_name" id="first_name">
+          <input placeholder="Jhon" class="border py-2 px-3 text-grey-darkest" type="text" name="first_name" id="first_name">
         </div>
         <div class="flex flex-col mb-4">
           <label class="mb-2 uppercase font-bold text-xs text-grey-darkest" for="last_name">Last Name</label>
-          <input class="border py-2 px-3 text-grey-darkest" type="text" name="last_name" id="last_name">
+          <input placeholder="Jhon" class="border py-2 px-3 text-grey-darkest" type="text" name="last_name" id="last_name">
         </div>
         <div class="flex flex-col mb-4">
           <label class="mb-2 uppercase font-bold text-xs text-grey-darkest" for="email">Email</label>
-          <input class="border py-2 px-3 text-grey-darkest" type="email" name="email" id="email">
+          <input placeholder="example@example.com" class="border py-2 px-3 text-grey-darkest" type="email" name="email" id="email">
         </div>
         <div class="flex flex-col mb-6">
           <label class="mb-2 uppercase font-bold text-xs text-grey-darkest" for="password">Password</label>
-          <input class="border py-2 px-3 text-grey-darkest" type="password" name="password" id="password">
+          <input placeholder="******" class="border py-2 px-3 text-grey-darkest" type="password" name="password" id="password">
         </div>
         <button class="block w-400 p-2 rounded no-underline text-sm text-white bg-blue-500">KIRIM</button>
       </form>
