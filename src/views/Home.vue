@@ -47,5 +47,20 @@
         </div>
       </div>
     </div>
+    <div class="px-2">
+      <div class="flex my-3 -mx-2">
+        <div class="w-1/3 px-2">
+          <div class="bg-white-400 h-12"></div>
+        </div>
+        <div class="w-13 px-2">
+          <div class="bg-white-500 h-12">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, asperiores
+            reprehenderit, nulla quos culpa in unde, cupiditate iusto reiciendis fuga sint aliquam. Eaque consequuntur
+            soluta, iste consectetur quibusdam dolorum! Repellendus.</div>
+        </div>
+        <div class="w-1/3 px-2">
+          <div class="bg-white-400 h-12"></div>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
