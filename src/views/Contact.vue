@@ -14,19 +14,6 @@
           </div>
         </div>
       </div>
-      <!-- <div class="flex my-3 -mx-2">
-        <div class="w-1 px-2">
-          <div class="bg-white-400 h-12"></div>
-        </div>
-        <div class="w-99 px-2">
-          <div class="bg-white-500 h-12">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, asperiores
-            reprehenderit, nulla quos culpa in unde, cupiditate iusto reiciendis fuga sint aliquam. Eaque consequuntur
-            soluta, iste consectetur quibusdam dolorum! Repellendus.</div>
-        </div>
-        <div class="w-1 px-2">
-          <div class="bg-white-400 h-12"></div>
-        </div>
-      </div> -->
       <form class="mb-6 my-5" action="/" method="post">
         <div class="flex flex-col mb-4">
           <label class="mb-2 uppercase font-bold text-xs text-grey-darkest" for="first_name">First Name</label>
@@ -44,8 +31,7 @@
           <label class="mb-2 uppercase font-bold text-xs text-grey-darkest" for="password">Password</label>
           <input class="border py-2 px-3 text-grey-darkest" type="password" name="password" id="password">
         </div>
-        <button class="block bg-teal hover:bg-teal-dark text-white uppercase text-lg mx-auto p-4 rounded"
-          type="submit">Create Account</button>
+        <button class="block w-400 p-2 rounded no-underline text-sm text-white bg-blue-500">KIRIM</button>
       </form>
     </div>
   </div>
